@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getNews = async () => {
-  const URL = "http://localhost:8000";
+  const URL = "newsindia-api.vercel.app";
   try {
     return await axios.get(`${URL}/news`);
   } catch (error) {
